@@ -31,7 +31,7 @@ const About = () => {
         </div>
         <div className="second_container">
           <div className="image_1">
-            <img src="/people.jpg" alt="people" />
+            <img src="https://plus.unsplash.com/premium_photo-1680300960730-53159ead37da?w=800&q=80" alt="people" />
           </div>
           <div className="image_2">
             <img src="people2.jpg" alt="people2" />

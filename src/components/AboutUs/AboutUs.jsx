@@ -4,7 +4,7 @@ const AboutUs = () => {
   return (
     <section id="aboutPage" className="page">
       <div className="container">
-        <img src="/about.jpg" alt="about" />
+        <img src="https://plus.unsplash.com/premium_photo-1661749309788-0bba60b81222?w=800&q=80" alt="about" />
         <div className="content">
           <h3>Your peace of mind, our priority!</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem magnam totam alias harum sit facilis.</p>

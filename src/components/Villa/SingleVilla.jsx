@@ -17,7 +17,7 @@ const SingleVilla = () => {
             <div className="otherImgs">
               <div>
                 <img src={"/landing.jpg"} alt="villa" />
-                <img src={"/people.jpg"} alt="villa" />
+                <img src={"https://plus.unsplash.com/premium_photo-1680300960730-53159ead37da?w=800&q=80"} alt="villa" />
               </div>
               <div>
                 <img src={"/people2.jpg"} alt="villa" />

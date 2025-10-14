@@ -1,64 +1,70 @@
+# DeFi Real Estate
 
-# 🏡 Property Rental Platform
+A decentralized real estate platform built with React, Vite, and Web3 technologies.
 
-A full-featured platform that allows users to browse, list, rent, and manage properties with ease. Built with modern JavaScript technologies to ensure smooth performance and great user experience.
+<img src="https://images.unsplash.com/photo-1560185127-2d06c6d08d3d" alt="Loyal City" style="width:100%; height:auto;" />
+<img src="https://plus.unsplash.com/premium_photo-1680300960728-2ed6106fe663" alt="Loyal City" style="width:100%; height:auto;" />
 
----
+## Features
 
-## 🚀 Features
+- Browse and explore real estate properties
+- Connect wallet using RainbowKit
+- Built with modern React and Vite
+- Styled with Tailwind CSS
+- Web3 integration with Wagmi and Viem
 
-- 🏠 List and manage rental properties
-- 🔍 Search and filter properties by location, price, and type
-- 👥 User authentication and role management
-- 📅 Booking calendar and availability tracking
-- 💬 Messaging system between renters and owners
-- 📸 Image gallery for property listings
-- 📊 Dashboard with analytics for owners and admins
-- 💳 Payment integration (Stripe/PayPal ready)
-- 🌐 Responsive and mobile-friendly design
+## Getting Started
 
----
+### Prerequisites
 
-## 🛠 Tech Stack
+- Node.js (v18 or higher)
+- npm
 
-**Frontend**  
-- React.js  
-- Redux / Zustand  
-- TailwindCSS  
-- React Router  
-- Axios  
+### Installation
 
-**Backend**  
-- Node.js  
-- Express.js  
-- MongoDB / PostgreSQL  
-- JWT Authentication  
-- Socket.io (optional for real-time messaging)
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-**DevOps / Tools**  
-- Docker (optional)  
-- Vite or Webpack  
-- ESLint + Prettier  
-- Jest / React Testing Library  
+3. Start the development server:
+   ```bash
+   npm start
+   ```
 
----
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 🧑‍💻 Contributing
+## Available Scripts
 
-1. Fork the repo
-2. Create a feature branch: `git checkout -b new-feature`
-3. Commit your changes: `git commit -m "Add new feature"`
-4. Push to the branch: `git push origin new-feature`
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
+
+## Tech Stack
+
+- **Frontend**: React 18, Vite
+- **Styling**: Tailwind CSS
+- **Web3**: Wagmi, Viem, RainbowKit
+- **Routing**: React Router DOM
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+
+## Project Structure
+
+```
+src/
+├── components/     # Reusable UI components
+├── pages/         # Page components
+├── context/       # React context providers
+├── utils/         # Utility functions and types
+└── styles/        # Global styles
+```
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
-
-## 🙋‍♀️ Contact
-
-For questions or suggestions, please open an issue or contact the maintainer.

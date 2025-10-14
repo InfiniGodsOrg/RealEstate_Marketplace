@@ -9,7 +9,7 @@ export const villas = [
     bathrooms: 10,
     squareMeter: "400",
     rating: 4.7,
-    image: "/villa1.jpg",
+    image: 'https://plus.unsplash.com/premium_photo-1748499237751-608b1e787d76?w=800&q=80',
     dailyRent: "240",
   },
   {
@@ -22,7 +22,7 @@ export const villas = [
     bathrooms: 12,
     squareMeter: "450",
     rating: 4.4,
-    image: "/villa2.jpg",
+    image: "https://plus.unsplash.com/premium_photo-1680300960728-2ed6106fe663?w=800&q=80",
     dailyRent: "300",
   },
   {
@@ -35,7 +35,7 @@ export const villas = [
     bathrooms: 6,
     squareMeter: "500",
     rating: 4.9,
-    image: "/villa3.jpg",
+    image: "https://images.unsplash.com/photo-1560185127-2d06c6d08d3d?w=800&q=80",
     dailyRent: "200",
   },
   {

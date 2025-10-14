@@ -8,12 +8,12 @@ const Regions = () => {
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, accusantium quo! Expedita sint iusto quaerat excepturi velit similique.</p>
         <div className="region_container">
         <div className="card">
-         <img src="/region1.jpg" alt="mountains" />
+         <img src="https://plus.unsplash.com/premium_photo-1679857224535-85d45adae907?w=800&q=80" alt="mountains" />
          <h2>Mountains</h2>
          <p><span>90</span> Properties</p> 
         </div>
         <div className="card">
-        <img src="/region2.jpg" alt="coastline" />
+        <img src="https://images.unsplash.com/photo-1486607303850-bc051a4ffad4?w=800&q=8" alt="coastline" />
          <h2>Coastline</h2>
          <p><span>52</span> Properties</p> 
         </div>
